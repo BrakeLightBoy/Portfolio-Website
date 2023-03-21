@@ -1,7 +1,7 @@
-import linkedInLogo from './icons/LinkedIn_icon.svg';
-import githubLogo from './icons/github_icon.svg';
-import gmailLogo from './icons/gmail_icon.svg';
-import './App.css';
+import linkedInLogo from '../icons/LinkedIn_icon.svg';
+import githubLogo from '../icons/github_icon.svg';
+import gmailLogo from '../icons/gmail_icon.svg';
+import '../styles/MainPage.css';
 
 function App() {
   return (
@@ -30,6 +30,13 @@ function App() {
           alt = "Gmail"
           style={{ height: 50, width: 50, padding:30}}/>
         </a>
+        <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
+
+<div>
+  <p style={{width: '70px', textAlign: 'center'}}>Example</p>
+</div>
+
+<div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
         </div>
       </header>
     </div>
