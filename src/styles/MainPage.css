@@ -1,5 +1,6 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;800;900&display=swap');
 
 /* Elements */
 .App {
@@ -23,7 +24,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -33,7 +33,51 @@
 }
 
 h1 {
-  color:rgb(255, 255, 255);
   font-family: Roboto Condensed;
+}
+
+.page-row {
+  width:100%;
+  padding: 60px 100px 60px 100px;
+}
+
+#headerTitle {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.about-me {
+  text-align: left;
+  font-style:italic;
+}
+
+.main-page-text {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.main-title-row {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#about-title {
+  color: #FF7272;
+}
+
+#project-title {
+  color: #FFFFFF;
+}
+
+#contact-title {
+  color: #BE8BFF;
+}
+
+#me-text {
+  color: #FFFFFF;
+}
+
+#project-text {
+  color: #AFFFA1;
 }
 
