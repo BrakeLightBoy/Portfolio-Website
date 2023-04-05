@@ -1,0 +1,83 @@
+/* Fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;800;900&display=swap');
+
+/* Elements */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #131426;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  font-family: Roboto Condensed;
+}
+
+.page-row {
+  width:100%;
+  padding: 60px 100px 60px 100px;
+}
+
+#headerTitle {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.about-me {
+  text-align: left;
+  font-style:italic;
+}
+
+.main-page-text {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.main-title-row {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#about-title {
+  color: #FF7272;
+}
+
+#project-title {
+  color: #FFFFFF;
+}
+
+#contact-title {
+  color: #BE8BFF;
+}
+
+#me-text {
+  color: #FFFFFF;
+}
+
+#project-text {
+  color: #AFFFA1;
+}
+
