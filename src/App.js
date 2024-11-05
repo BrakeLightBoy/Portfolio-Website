@@ -10,7 +10,6 @@ function App() {
         <h1>Michael Larsson</h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <Project></Project>
     </div>
   );
 }
