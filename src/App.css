@@ -1,3 +1,9 @@
+@import url('https://use.typekit.net/noy2svz.css');
+
+h1 {
+  font-family: "futura-pt", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #212427;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +34,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+}*/
