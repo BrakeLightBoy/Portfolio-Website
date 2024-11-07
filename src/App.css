@@ -34,6 +34,31 @@ h1 {
   color: #61dafb;
 }
 
+.Body {
+  width: 100%;
+  background-color: darkgrey;
+}
+
+.Project-div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Project-title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Button-div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Project-button {
+  border-radius: 10%;
+}
+
 /*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
