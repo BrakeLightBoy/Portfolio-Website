@@ -1,0 +1,23 @@
+@import url('https://use.typekit.net/noy2svz.css');
+
+h1 {
+  font-family: "futura-pt", sans-serif;
+}
+
+.Projects {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #212427;
+}
+
+.Projects-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "futura-pt", sans-serif;
+  padding-top: 1rem;
+  font-weight: bold;
+}
