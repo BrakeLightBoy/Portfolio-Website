@@ -1,0 +1,11 @@
+@import url('https://use.typekit.net/noy2svz.css');
+
+#navbar {
+    background-color: #212427;
+    font-family: "futura-pt", sans-serif;
+    width: 100%;
+}
+
+#navbar-option, #navbar-title {
+    color:white;
+}

@@ -4,13 +4,19 @@ h1 {
   font-family: "futura-pt", sans-serif;
 }
 
+#description {
+  font-size:5rem;
+  text-align:left;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
+  display: inline;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,16 +28,21 @@ h1 {
 .App-header {
   background-color: #212427;
   min-height: 100vh;
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin);  
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#App-body {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 75%;
 }
 
 .Body {
@@ -63,6 +74,17 @@ a.button {
   background-color: buttonface;
   text-decoration: none;
 }
+
+hr {
+  border-top: 1px solid white;
+  width: 75%;
+}
+
+#navbar {
+  margin-top: 3rem;
+}
+
+
 
 /*@keyframes App-logo-spin {
   from {
